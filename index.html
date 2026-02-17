@@ -1,170 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Privacy Policy – Khmer Calendar: Smart Reminder</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | Khmer Calendar: Smart Reminder</title>
+  <style>
+    :root {
+      --primary: #0a84ff;
+      --primary-dark: #0071e3;
+      --bg-body: #f9fafb;
+      --bg-card: #ffffff;
+      --text-main: #1d1d1f;
+      --text-muted: #6e6e73;
+      --border-color: #e5e7eb;
+      --accent-gold: #d4af37; /* Subtle nod to Khmer branding */
+    }
 
-<style>
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-  background: #f7f7f8;
-  margin: 0;
-  padding: 0;
-  color: #222;
-}
+    * { box-sizing: border-box; }
 
-.container {
-  max-width: 820px;
-  margin: 40px auto;
-  background: #ffffff;
-  padding: 40px;
-  border-radius: 14px;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.06);
-}
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      line-height: 1.6;
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+    }
 
-h1 {
-  font-size: 28px;
-  margin-bottom: 8px;
-}
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
 
-.updated {
-  color: #666;
-  margin-bottom: 24px;
-}
+    .policy-card {
+      background: var(--bg-card);
+      padding: 48px;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border-color);
+      border-top: 6px solid var(--primary);
+    }
 
-h2 {
-  margin-top: 28px;
-  font-size: 18px;
-}
+    header {
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
 
-p {
-  line-height: 1.65;
-}
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin: 0 0 8px 0;
+    }
 
-ul {
-  line-height: 1.7;
-}
+    h2 {
+      font-size: 22px;
+      margin-top: 40px;
+      border-left: 4px solid var(--accent-gold);
+      padding-left: 15px;
+    }
 
-.footer {
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid #eee;
-  color: #666;
-  font-size: 14px;
-}
+    h3 {
+      font-size: 18px;
+      margin-top: 24px;
+      color: var(--text-main);
+    }
 
-a {
-  color: #0a84ff;
-  text-decoration: none;
-}
+    .updated-date {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-bottom: 0;
+    }
 
-a:hover {
-  text-decoration: underline;
-}
+    /* Privacy at a Glance Table */
+    .summary-box {
+      background: #f8f9ff;
+      border: 1px solid #e1e4f5;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 32px 0;
+    }
 
-@media (max-width: 600px) {
-  .container {
-    margin: 0;
-    border-radius: 0;
-    padding: 22px;
-  }
+    .summary-box h3 { margin-top: 0; font-size: 16px; text-transform: uppercase; letter-spacing: 1px; color: var(--primary); }
 
-  h1 {
-    font-size: 22px;
-  }
-}
-</style>
+    .summary-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    .summary-table td {
+      padding: 12px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .summary-table td:first-child { font-weight: 600; width: 30%; color: var(--text-main); }
+
+    /* Content Styling */
+    p, li {
+      color: #3c3c43;
+      font-size: 16px;
+    }
+
+    ul { padding-left: 20px; }
+    li { margin-bottom: 10px; }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    a:hover { color: var(--primary-dark); text-decoration: underline; }
+
+    .footer {
+      margin-top: 48px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-muted);
+      padding-bottom: 40px;
+    }
+
+    code {
+      background: #f1f1f1;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 640px) {
+      .container { margin: 0; padding: 0; }
+      .policy-card { border-radius: 0; border: none; padding: 24px; }
+      h1 { font-size: 26px; }
+      .summary-table td { display: block; width: 100% !important; padding: 4px 0; border: none; }
+      .summary-table tr { display: block; padding: 10px 0; border-bottom: 1px solid #eee; }
+    }
+  </style>
 </head>
-
 <body>
 
 <div class="container">
+  <main class="policy-card">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p><strong>Khmer Calendar: Smart Reminder</strong></p>
+      <p class="updated-date">Last updated: February 17, 2026</p>
+    </header>
 
-<h1>Privacy Policy</h1>
-<h2>Khmer Calendar: Smart Reminder</h2>
+    <section id="introduction">
+      <p>Your privacy is fundamental to our design. <strong>Khmer Calendar: Smart Reminder</strong> ("the App") is built to ensure that your personal data remains private, local, and under your control.</p>
+    </section>
 
-<p class="updated"><strong>Last updated:</strong> February 2026</p>
+    <section class="summary-box">
+      <h3>Privacy at a Glance</h3>
+      <table class="summary-table">
+        <tr>
+          <td>Data Storage</td>
+          <td>100% Local. Profile and reminders never leave your device.</td>
+        </tr>
+        <tr>
+          <td>Tracking</td>
+          <td>Anonymous usage analytics via PostHog. No personal info tracked.</td>
+        </tr>
+        <tr>
+          <td>Third Parties</td>
+          <td>Google AdMob (Ads) and Apple/Google (Payments).</td>
+        </tr>
+        <tr>
+          <td>Data Sale</td>
+          <td>We <strong>never</strong> sell or rent your personal data.</td>
+        </tr>
+      </table>
+    </section>
 
-<p>
-Khmer Calendar: Smart Reminder ("the App") respects your privacy. This Privacy Policy explains what information is collected and how it is used.
-</p>
+    <section id="data-collection">
+      <h2>1. Information We Collect</h2>
+      
+      <h3>Personal Information (Local Only)</h3>
+      <p>The following information is stored using <code>AsyncStorage</code> <strong>exclusively on your device</strong>. We have no technical means to access this data:</p>
+      <ul>
+        <li><strong>Profile Data:</strong> Name, date, time, and place of birth.</li>
+        <li><strong>Preferences:</strong> Language, theme, and font settings.</li>
+        <li><strong>User Content:</strong> Reminders, notes, and partner birth data for compatibility features.</li>
+      </ul>
 
-<h2>Information We Collect</h2>
+      <h3>Usage Analytics (Non-Identifiable)</h3>
+      <p>We use <strong>PostHog</strong> to collect aggregated data to improve app performance. This includes interaction events like tab switches or subscription restores. <strong>This data is stripped of any personally identifiable information.</strong></p>
+    </section>
 
-<p>
-We do not collect personally identifiable information such as your name, email address, or exact birth details through analytics.
-</p>
+    <section id="third-party">
+      <h2>2. Third-Party Services</h2>
+      
+      <h3>Google Mobile Ads (AdMob)</h3>
+      <p>To provide a free version of the app, we use AdMob. They may use device identifiers to show relevant ads. You can opt-out via your OS settings:</p>
+      <ul>
+        <li><strong>iOS:</strong> Settings > Privacy > Tracking</li>
+        <li><strong>Android:</strong> Settings > Google > Ads</li>
+      </ul>
 
-<p>We may collect anonymous usage data such as:</p>
+      <h3>In-App Purchases</h3>
+      <p>Transactions are handled securely by Apple and Google. We receive a "receipt" to unlock your features, but <strong>we never see your credit card or billing details.</strong></p>
+    </section>
 
-<ul>
-<li>App feature usage</li>
-<li>Screen views and interactions</li>
-<li>Subscription and purchase events</li>
-<li>Error and performance data</li>
-</ul>
+    <section id="security">
+      <h2>3. Data Security & Deletion</h2>
+      <p>Because your data is local, its security depends on your device's security (Passcode, FaceID, etc.).</p>
+      <ul>
+        <li><strong>Uninstallation:</strong> Deleting the app removes all local data permanently.</li>
+        <li><strong>No Cloud Sync:</strong> We do not back up your profile to our servers, ensuring you have total ownership.</li>
+      </ul>
+    </section>
 
-<h2>Analytics</h2>
+    <section id="contact">
+      <h2>4. Contact Us</h2>
+      <p>If you have questions about this policy or our privacy practices, please reach out:</p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:Leangrottnak@gmail.com">Leangrottnak@gmail.com</a>
+      </p>
+    </section>
+  </main>
 
-<p>
-The App uses analytics tools (such as PostHog) to understand feature usage and improve the app experience. Analytics data is collected in a non-identifiable and aggregated way.
-</p>
-
-<h2>Subscriptions and Purchases</h2>
-
-<p>
-Subscriptions and in-app purchases are processed by Apple App Store. We do not receive or store your payment details.
-</p>
-
-<h2>Data Usage</h2>
-
-<p>Collected data is used only to:</p>
-
-<ul>
-<li>Improve app performance and features</li>
-<li>Fix errors and crashes</li>
-<li>Understand general usage trends</li>
-</ul>
-
-<h2>Data Sharing</h2>
-
-<p>
-We do not sell or share personal data with advertisers. Data is not used for cross-app tracking.
-</p>
-
-<h2>Data Deletion Requests</h2>
-
-<p>
-You may request data deletion by contacting us using the email below.
-</p>
-
-<h2>Children’s Privacy</h2>
-
-<p>
-The App is not directed to children under 13. We do not knowingly collect personal information from children.
-</p>
-
-<h2>Changes to This Policy</h2>
-
-<p>
-We may update this Privacy Policy from time to time. Updates will be posted on this page.
-</p>
-
-<h2>Contact</h2>
-
-<p>
-If you have questions about this Privacy Policy:
-</p>
-
-<p>
-<a href="mailto:Leangrottnak@gmail.com">Leangrottnak@gmail.com</a>
-</p>
-
-<div class="footer">
-This policy applies to Khmer Calendar: Smart Reminder mobile application.
-</div>
-
+  <footer class="footer">
+    &copy; 2026 Khmer Calendar: Smart Reminder. All rights reserved.<br>
+    Designed for privacy and cultural heritage.
+  </footer>
 </div>
 
 </body>
